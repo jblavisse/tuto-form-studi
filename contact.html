@@ -10,10 +10,15 @@
 <body>
     <h1>Me contacter</h1>
 
-    <form method="POST" name="contactform" netlify  data-netlify-recaptcha="true">
+    <form method="POST" name="contactform" data-netlify="true"  data-netlify-recaptcha="true">
         <div>
             <label for="lastname">Votre nom:</label>
             <input name="nom" type="text" id="lastname" placeholder="JB" required>
+        </div>
+
+        <div>
+            <label for="email">Votre email:</label>
+            <input name="email" type="email" id="email" required>
         </div>
 
         <div>
