@@ -1,0 +1,17 @@
+/* Version pas mobile first */
+
+h1 {
+    color: blue;
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media screen and (max-width:824px) {
+
+    h1 {
+        color: red;
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+}
